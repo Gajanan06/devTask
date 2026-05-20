@@ -145,6 +145,7 @@ const Signup = () => {
           backgroundColor="#6C25FF"
           textColor="#FFFFFF"
           onClick={handleCreateAccount}
+          style={{ marginTop: "150px" }}
         />
 
       </div>

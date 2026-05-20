@@ -27,7 +27,7 @@ const Login = () => {
           <h1>
             Signin to your
             <br />
-            devtask account
+            PopX account
           </h1>
 
           <p>

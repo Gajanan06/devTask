@@ -16,7 +16,7 @@ const Landing = () => {
 
           <div className="landing-text">
 
-            <h1>Welcome to devtask</h1>
+            <h1>Welcome to PopX</h1>
 
             <p>
               Lorem ipsum dolor sit amet,

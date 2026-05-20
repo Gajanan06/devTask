@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  min-height: 100vh;
 }
 
 .landing-content {
@@ -33,10 +34,6 @@
 }
 
 
-.login-container {
-  padding-top: 40px;
-}
-
 .login-header {
   margin-bottom: 32px;
 }
@@ -66,7 +63,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .signup-header {
@@ -110,4 +107,83 @@
 
 .radio-label input {
   accent-color: #6c25ff;
+}
+
+.create-account-button {
+  margin-top: 20px;
+}
+
+
+.profile-page {
+  min-height: 100%;
+  background-color: #f7f8f9;
+  margin: -24px -20px;
+}
+
+.profile-header {
+  background-color: #ffffff;
+  padding: 28px 20px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.profile-header h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1d2226;
+}
+
+.profile-content {
+  padding: 30px 20px;
+  border-bottom: 1px dashed #cbcbcb;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.profile-image-container {
+  position: relative;
+  margin-right: 20px;
+}
+
+.profile-image {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  background-color: #6c25ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.profile-details h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1d2226;
+  margin-bottom: 6px;
+}
+
+.profile-details p {
+  font-size: 14px;
+  color: #1d2226;
+}
+
+.profile-description p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #1d2226;
 }
